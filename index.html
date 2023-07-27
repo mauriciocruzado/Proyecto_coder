@@ -8,83 +8,195 @@
         <title>Linkin Park - Inicio </title>
         <!--favicon-->
         <link rel="shortcut icon" href="./flaticon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="./css/estilos.css">     
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/estilos.css">  
     </head>
-
     <body>
-        <header class="header">
-            <!--Esta etiqueta abierta de imagen es el logo-->
-            <a href="#"><img class="icon" src="./assets/img/Linkin_Park_logo.jpg" alt="Logo en blanco y negro de Linkin Park"></a>
-            <!--En la navegación van incluidas las anclas con sus respectivos enlaces
-            para que el usuario pueda navegar por el sitio web-->
-            <nav>
-                <ul>
-                    <li class="navegitem"><a class="itemsNav" href="#">INICIO</a></li>
-                    <li class="navegitem"><a class="itemsNav" href="./pages/miembros.html"> MIEMBROS</a></li>
-                    <li class="navegitem"><a class="itemsNav" href="./pages/historia.html">HISTORIA</a></li>
-                    <li class="navegitem"><a class="itemsNav" href="./pages/canciones.html">CANCIONES</a></li>
-                    <li class="navegitem"><a class="itemsNav" href="./pages/tienda.html">TIENDA</a></li>
-                    <li class="navegitem"><a class="itemsNav" href="./pages/contacto.html">CONTACTO</a></li>                   
-                </ul>
-            </nav>
+        <header>
+            <!--Navegación de Bootstrap modificado con colores propios-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid px-5 colorletraBlanca">
+                  <a class="navbar-brand colorletraBlanca" href="#">
+                    <img src="./assets/img/Linkin_Park_logo.jpg" alt="Logo de Linkin Park" width="30" height="28"> Linkin Park</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-dark w-100 justify-content-end">
+                      <li class="nav-item">
+                        <a class="nav-link active colorbgAntiqwhite colorNegro" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link colorletraBlanca" href="./pages/miembros.html">Miembros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link colorletraBlanca" href="./pages/historia.html">Historia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link colorletraBlanca" href="./pages/canciones.html">Canciones</a>
+                      </li>                      
+                      <li class="nav-item">
+                        <a class="nav-link colorletraBlanca" href="./pages/tienda.html">Tienda</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link colorletraBlanca" href="./pages/contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
 
-
+        <!--Main modificado con bootstrap-->
         <main class="main">
-            <h1 class="tituloH1Inicio">Un viaje al corazón del nu metal: Linkin Park </h1> <!--Este es el título principal de esta página-->
+            <div>
+                <h1 class="d-flex justify-content-center aling-items-center colorbgAntiqwhite p-4 mb-0">Un viaje al corazón del nu metal: Linkin Park </h1> <!--Este es el título principal de esta página-->
+            </div>  
             <!--Acá puse una foto de la banda-->
-            <img class="fotoprincipal" src="./assets/img/Linkin_Park_Band.jpg" alt="Foto de la banda, Linkin Park">
-            <h2 class="subtInicio">Discografía</h2>
-            <section> <!--En esta sección puse la discografía a modo de presentación, solo con los datos más importantes-->
-                <div class="divInicio"><!--Hice una división para cada album de la banda-->
-                    <div class="album"><img class="portada" src="./assets/img/Linkin_Park_Hybrid_Theory_Album_.jpg" alt="Portada del album Hybrid Theory" width="350" height="300"></div>
-                    <p class="parrafosPrincipales">Hybrid Theory</p>
-                    <p class="parrafosPrincipales">Fecha de lanzamiento: 24/10/2000</p>
-                    <p class="parrafosPrincipales">Discográfica: Warner Bros</p>
+            <div class="fotoIndex pt-4">
+                <img class="fotoprincipal img-fluid" src="./assets/img/Linkin_Park_Band.jpg" alt="Foto de la banda, Linkin Park">
+            </div>
+            <h2 class="Discografía mb-0">Discografía</h2>
+            <section class="container-fluid"> <!--En esta sección puse la discografía a modo de presentación, solo con  los datos más importantes-->
+
+
+
+                <!--Div del disco HYBRYD THEORY-->
+                <div class="row d-flex colorNegro border-bottom ">
+                    <div class="col-sm-12 col-md-6  d-flex justify-content-center aling-items-center imgAlbumImpar mt-5 mb-5">
+                        <img class="mt-5 mb-5 portada1 img-fluid" src="./assets/img/Linkin_Park_Hybrid_Theory_Album_.jpg" alt="Portada del album Hybrid Theory" width="350" height="300">
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center aling-items-center parrafoAlbumImpar">
+                        <p class="text-center p-2  ParHT">Hybrid Theory</p>
+                        <p class="text-center ParHT p-2 ">Fecha de lanzamiento: 24/10/2000</p>
+                        <p class="text-center ParHT p-2 ">Discográfica: Warner Bros</p>
+                        </div>
                 </div>
-                <div class="divInicio">
-                    <img src="./assets/img/meteora_linkin_park.jpg" alt="Portada del album Meteora" width="350" height="300">
-                    <p class="parrafosPrincipales">Meteora</p>
-                    <p class="parrafosPrincipales">Fecha de lanzamiento: 25/03/2003</p>
-                    <p class="parrafosPrincipales">Discográfica: Warner Bros</p>
+               <!-- Div del disco Meteora-->
+                <div class="row d-flex colorNegro border-bottom">
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center aling-items-center imgAlbumPar metmargin paddingmet ">
+                        <img class="portada1 img-fluid" src="./assets/img/grafitty-g924b8aa3e_640.jpg" alt="Portada del album Meteora" width="350" height="300"> 
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center aling-items-center parrafoAlbumPar">
+                        <p class="text-center p-2  parMet">Meteora</p>
+                        <p class="text-center parMet p-2">Fecha de lanzamiento: 25/03/2003</p>
+                        <p class="text-center parMet p-2 ">Discográfica: Warner Bros</p>
+                    </div>
                 </div>
-                <div class="divInicio">
-                    <img src="./assets/img/Minutes_to_Midnight_linkin-park.jpg" alt="Portada del tercer album titulado Minutes to Midnight" width="350" height="300">
-                    <p class="parrafosPrincipales">Minutes to Midnight</p>
-                    <p class="parrafosPrincipales">Fecha de lanzamiento: 15/05/2007</p>
-                    <p class="parrafosPrincipales">Discográfica: Warner Bros - Machine Shop</p>
                 </div>
-                <div class="divInicio">
-                    <img src="./assets/img/A_Thousand_Suns_Linkin_park.jpg" alt="Portada del cuarto album titulado A Thousand Suns" width="350" height="300">
-                    <p class="parrafosPrincipales">A Thousand Suns</p>
-                    <p class="parrafosPrincipales">Fecha de lanzamiento: 14/09/2010</p>
-                    <p class="parrafosPrincipales">Discográfica: Warner Bros - Machine Shop</p>
+                <!--Div del disco MINUTES TO MIDNIGHT-->
                 </div>
-                <div class="divInicio">
-                    <img src="./assets/img/Linkin_Park_Living_Things.jpg" alt="Portada del quinto album titulado Living Things" width="350" height="300">
-                    <p class="parrafosPrincipales">Living Things</p>
-                    <p class="parrafosPrincipales">Fecha de lanzamiento: 26/06/2012</p>
-                    <p class="parrafosPrincipales">Discográfica: Warner Bros - Machine Shop</p>
+                <div class="row d-flex colorNegro border-bottom ">
+                    <div class="col-sm-12 col-md-6  d-flex justify-content-center aling-items-center imgAlbumImpar mt-5 mb-5">
+                        <img class="mt-5 mb-5 portada1 img-fluid" src="./assets/img/Minutes_to_Midnight_linkin-park.jpg" alt="Portada del tercer album titulado Minutes to Midnight" width="350" height="300">
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center aling-items-center parrafoAlbumImpar">
+                        <p class="text-center p-2 ParMID">Minutes to Midnight</p>
+                        <p class="text-center ParMID p-2 ">Fecha de lanzamiento: 15/05/2007</p>
+                        <p class="text-center ParMID p-2 ">Discográfica: Warner Bros - Machine Shop</p>
+                        </div>
                 </div>
-                <div class="divInicio">
-                    <img src="./assets/img/Linkin_Park_The_Hunting_Party.jpg" alt="Portada del sexto album titulado The Hunting Party" width="350" height="300">
-                    <p class="parrafosPrincipales">The Hunting Party</p>
-                    <p class="parrafosPrincipales">Fecha de lanzamiento: 17/06/2014</p>
-                    <p class="parrafosPrincipales">Discográfica: Warner Bros - Machine Shop</p>
+                <!--Div del disco A Thousand Suns-->
+                <div class="row d-flex colorNegro border-bottom">
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center aling-items-center order-2 imgAlbumPar metmargin paddingmet ">
+                        <img class="portada1 img-fluid" src="./assets/img/A_Thousand_Suns_Linkin_park.jpg" alt="Portada del cuarto album titulado A Thousand Suns" width="350" height="300"> 
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center aling-items-center parrafoAlbumPar">
+                        <p class="text-center p-2 parATS">A Thousand Suns</p>
+                        <p class="text-center parATS p-2">Fecha de lanzamiento: 14/09/2010</p>
+                        <p class="text-center parATS p-2 ">Discográfica: Warner Bros - Machine Shop</p>
+                    </div>
                 </div>
-                <div class="divInicio">
-                    <img src="./assets/img/Linkin_Park_One_More_Light.jpeg" alt="Portada del septimo y ultimo album titulado One More Light" width="350" height="300">
-                    <p class="parrafosPrincipales">One More Light</p>
-                    <p class="parrafosPrincipales">Fecha de lanzamiento: 19/05/2017</p>
-                    <p class="parrafosPrincipales">Discográfica: Warner Bros - Machine Shop</p>
+                </div>
+                <!--Div del disco Living Things-->
+                <div class="row d-flex colorNegro border-bottom ">
+                    <div class="col-sm-12 col-md-6  d-flex justify-content-center aling-items-center imgAlbumImpar mt-5 mb-5">
+                        <img class="mt-5 mb-5 portada1 img-fluid" src="./assets/img/Linkin_Park_Living_Things.jpg" alt="Portada del quinto album titulado Living Things" width="350" height="300">
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center aling-items-center parrafoAlbumImpar">
+                        <p class="text-center p-2 ParLiv">Living Things</p>
+                        <p class="text-center ParLiv p-2 ">Fecha de lanzamiento: 26/06/2012</p>
+                        <p class="text-center ParLiv p-2 ">Discográfica: Warner Bros - Machine Shop</p>
+                    </div>
+                </div>
+                <!--Div del disco The Hunting Party-->
+                <div class="row d-flex colorNegro border-bottom">
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center aling-items-center order-2 imgAlbumPar metmargin paddingmet ">
+                        <img class="portada1 img-fluid" src="./assets/img/Linkin_Park_The_Hunting_Party.jpg" alt="Portada del sexto album titulado The Hunting Party" width="350" height="300"> 
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center aling-items-center parrafoAlbumPar">
+                        <p class="text-center p-2 parTHP">The Hunting Party</p>
+                        <p class="text-center parTHP p-2">Fecha de lanzamiento: 17/06/2014</p>
+                        <p class="text-center parTHP p-2 ">Discográfica: Warner Bros - Machine Shop</p>
+                    </div>
+                </div>
+                </div>
+                <!--Div del disco One More Light-->
+                <div class="row d-flex colorNegro border-bottom ">
+                    <div class="col-sm-12 col-md-6  d-flex justify-content-center aling-items-center imgAlbumImpar mt-5 mb-5">
+                        <img class="mt-5 mb-5 portada1 img-fluid" src="./assets/img/Linkin_Park_One_More_Light.jpeg" alt="Portada del septimo y ultimo album titulado One More Light" width="350" height="300">
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center aling-items-center parrafoAlbumImpar">
+                        <p class="text-center p-2 ParOML">One More Light</p>
+                        <p class="text-center ParOML p-2">Fecha de lanzamiento: 19/05/2017</p>
+                        <p class="text-center ParOML p-2 ">Discográfica: Warner Bros - Machine Shop</p>
+                    </div>
+                </div>
                 </div>
             </section>
         </main>
-        <footer class="footparte"><!--Acá van los botones a las redes sociales y una frase de derechos reservados-->
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.877810491335!2d-65.7433328253322!3d-28.45309955931857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94242ffe25bb8b1b%3A0x2490495f8a285604!2sMonumento%20al%20Coronel%20Felipe%20Varela!5e0!3m2!1ses!2sar!4v1687309311352!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <a class="footparte" target="_blank" href="https://twitter.com/linkinpark"><img src="./assets/img/icon_twitter.png" alt="Logo de Twitter, click para entrar" width="25" height="25"></a>
-            <a class="footparte" target="_blank" href="https://www.instagram.com/linkinpark/?hl=es"><img src="./assets/img/instagram.png" alt="Logo de Instagram, click para entrar" width="25" height="25"></a>
-            <a class="footparte" target="_blank" href="https://www.youtube.com/channel/UCZU9T1ceaOgwfLRq7OKFU4Q"><img src="./assets/img/youtube.png" alt="Logo de Youtube, click para entrar" width="25" height="25"></a>
-            <p class="parrafosInicio footparte">Todos los derechos reservados - Desarrollado por Mauricio</p>
+        <footer class="container-fluid colorbgAntiqwhite">
+            <div class="row">
+                <div class="col-md-4 d-flex flex-column justify-content-center aling-items-center border-end border-white">
+                    <div class="d-flex justify-content-center">
+                        <a href="#">
+                        <img class="rounded-circle mt-5 " src="./assets/img/Linkin_Park_logo.jpg" alt="Logo de Linkin Park" width="100" height="100"></a>
+                    </div>
+                    <div class="d-flex justify-content-center w-100">
+                        <a class="navbar-brand letterNegra ms-3" href="#">
+                        <p class="letterNegra">Linkin Park</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-center aling-items-center border-end border-white ">
+                    <div class="d-flex justify-content-center pb-0 pt-3">
+                        <p class="parrafoRedes">Seguinos en...</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a class="iconoRedes letterNegra" target="_blank" href="https://twitter.com/linkinpark">
+                        <img src="./assets/img/icon_twitter.png" alt="Logo de Twitter, click para entrar" width="45" height="45">
+                        <p class="letterNegra">Twitter</p>
+                        </a>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div>
+                            <a class="iconoRedes letterNegra" target="_blank" href="https://www.instagram.com/linkinpark/?hl=es">
+                            <img src="./assets/img/instagram.png" alt="Logo de Instagram, click para entrar" width="45" height="45">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="letterNegra">Instagram</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div>
+                            <a class="iconoRedes letterNegra" target="_blank" href="https://www.youtube.com/channel/UCZU9T1ceaOgwfLRq7OKFU4Q">
+                            <img src="./assets/img/youtube.png" alt="Logo de Youtube, click para entrar" width="45" height="45">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="letterNegra">Youtube</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                    <p class="parrafoMapa pt-4">Sumérgete en el mundo de Linkin Park en nuestro local.</p>
+                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.877810491335!2d-65.7433328253322!3d-28.45309955931857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94242ffe25bb8b1b%3A0x2490495f8a285604!2sMonumento%20al%20Coronel%20Felipe%20Varela!5e0!3m2!1ses!2sar!4v1687309311352!5m2!1ses!2sar" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
