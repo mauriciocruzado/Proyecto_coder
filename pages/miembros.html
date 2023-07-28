@@ -9,12 +9,12 @@
          <!--favicon-->
          <link rel="shortcut icon" href="../flaticon.ico" type="image/x-icon">
          <link rel="stylesheet" href="../css/bootstrap.min.css">
-         <link rel="stylesheet" href="../css/estilos.css">  
+         <link rel="stylesheet" href="../css/estilos.css">
     </head>
     <body>
-        <header class="header">
+        <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container colorletraBlanca">
+                <div class="container-fluid px-5 colorletraBlanca">
                     <a class="navbar-brand colorletraBlanca" href="../index.html">
                         <img src="../assets/img/Linkin_Park_logo.jpg" alt="Logo de Linkin Park" width="30" height="24"> Linkin Park</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,111 +49,81 @@
             <div class="d-flex p-4 w-100 justify-content-center aling-items-center colorbgAntiqwhite">
             <h1>INTEGRANTES</h1><!--Este es el título principal de esta página-->
             </div>
-            <section> 
-                <div class="divMiembros">
-                    <div>
-                        <h2 class="miembro">Vocalista: Chester Bennington</h2>
-                    </div><!--Acá va el nombre del miembro a presentar-->
-                    <div class="ContImg">
-                        <img src="../assets/img/Chester-Bennington proyecto img.webp" alt="Imagen de Chester" width="700" height="400">
-                    </div>
-                    <div class="parrafo">
-                        <p>
-                             Nació un 20 de marzo de 1976 en Phoenix, Arizona. 
-                            Poseía un rango vocal de tenor de tres octavas, comenzando en la nota más baja G2 y alcanzando su punto máximo en la nota más alta G5.
-                            La voz de Bennington encarnaba la angustia y las emociones de gran alcance de la letra, desde capturar los momentos vulnerables de la vida hasta la furia y la catarsis.  <!-- Breve comentario de su biografía y su infleuncia en la banda-->
-                        </p>
-                    </div>
-                </div>
-                <div class="divMiembros2">
-                    <div>
-                        <h2 class="miembro2">Voces/rap: Mike Shinoda</h2>
-                    </div><!--Acá va el nombre del miembro a presentar-->
-                    <div class="ContImg2">
-                        <img src="../assets/img/Mike Shinoda proyecto img.webp" alt="Imagen de Mike" width="700" height="500">
-                    </div>
-                    <div class="parrafo2">
-                        <p class="parrafosMiembros">
-                            Michael Kenji "Mike" Shinoda nació en Agoura Hills, California un 11 de  
-                            febrero de 1977. Es uno de los co-fundadores de Linkin Park.
-                            Su rol en la banda es de vocalista/rapero, también toca la guitarra, el piano y es el producto de la misma.
-                            Está muy involucrado en los aspectos técnicos de las grabaciones de la banda y contribuyó en la composición instrumental y lírica de la mayoría de las canciones de Linkin Park.<!-- Breve comentario de su biografía y su infleuncia en la banda-->
-                        </p>
-                    </div>
-                </div>
-                <div class="divMiembros">
-                    <div>
-                        <h2 class="miembro">Guitarra Lider: Brad Delson</h2>
-                    </div><!--Acá va el nombre del miembro a presentar-->
-                    <div class="ContImg">
-                        <img src="../assets/img/Brad-Delson-840x658.jpg" alt="Imagen del guitarrista Brad Delson" width="700" height="500">
-                    </div>
-                    <div class="parrafo">
-                        <p class="parrafosMiembros">
-                            Bradford Phillip Delson nació en Agoura Hills, California el 1 de diciembre de 1977. Es el guitarrista líder, uno de los co-fundadores de la banda y también se ocupa de muchos de los aspectos del negocio de Linkin Park.<!-- Breve comentario de su estilo y su infleuncia en la banda
-                            Cambiar imagen porque tiene etiqueta de agua-->
-                        </p>
-                    </div>
-                </div>
-                <div class="divMiembros2">
-                    <div>
-                        <h2 class="miembro2">Bajo: Dave Farrell</h2>
-                    </div><!--Acá va el nombre del miembro a presentar-->
-                    <div class="ContImg2">
-                        <a title="File:Linkin Park Rock am Ring 2014 (10).JPG: User:JoeJoeJoe93
-                                derivative work: Minerva97, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Dave_Farrell_2014.JPG"><img width="256" alt="Dave Farrell 2014" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Dave_Farrell_2014.JPG/256px-Dave_Farrell_2014.JPG"></a>            
-                    </div>
-                    <div class="parrafoDave">
-                        <div class="mencion">
-                            <p>
-                                <a href="https://commons.wikimedia.org/wiki/File:Dave_Farrell_2014.JPG">File:Linkin Park Rock am Ring 2014 (10).JPG: User:JoeJoeJoe93derivative work: Minerva97</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons</p>
-                        </div>
-                        <div class="Dave">
-                            <p class="parrafosMiembros">
-                            David Michael Farrell (más conocido como Phoenix) nació en Plymouth, 
-                            Massachusetts, el 8 de febrero de 1977
-                            Es el bajista del grupo, casi siempre usa la técnica de la púa y en  ocaciones hace los coros de las canciones.<!-- Breve comentario de su   biografía y su infleuncia en la banda-->
-                            </p>
+            <section>
+                <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-dark">
+                    <div class="row">
+                        <div class="d-flex justify-content-center align-items-center pe-5 mt-5 mb-4 mx-4">
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="img-fluid img-card" src="../assets/img/pxfuelchesterbe.jpg" class="card-img-top" alt="Imagen de Chester">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Chester Bennington</h5>
+                                    <p class="card-text">
+                                    <!--Poseía un rango vocal de tenor de tres octavas, comenzando en la nota más baja G2 y alcanzando su punto máximo en la nota más alta G5-->
+                                    Era la voz principal de la banda. Su voz encarnaba la angustia y las emociones de gran alcance de la letra, capturaba los momentos vulnerables de la vida hasta la furia y la catarsis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="img-fluid img-card" src="../assets/img/Mike Shinoda proyecto img.webp" class="card-img-top" alt="Imagen de Chester">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Mike Shinoda</h5>
+                                    <p class="card-text"><!--Michael Kenji "Mike" Shinoda nació en Agoura Hills, California un 11 de  
+                                        febrero de 1977.--> Es uno de los co-fundadores de Linkin Park.
+                                        Su rol en la banda es de vocalista/rapero, también toca la guitarra, el piano y está involucrado en los aspectos técnicos de las grabaciones de la banda 
+                                        <!--Está muy involucrado en los aspectos técnicos de las grabaciones de la banda y contribuyó en la composición instrumental y lírica de la mayoría de las canciones de Linkin Park-->.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="img-fluid img-card" src="../assets/img/Brad-Delson-840x658.jpg" class="card-img-top" alt="Imagen del guitarrista Brad Delson">
+                                    <div class="card-body">
+                                    <h5 class="card-title"> Brad Delson</h5>
+                                    <p class="card-text"> Es el guitarrista líder, uno de los co-fundadores de la banda. Añadió su propia visión creativa a muchas de las canciones de Linkin Park. También se ocupa  de los aspectos del negocio de la banda.
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="d-flex justify-content-center align-items-center pe-5 mx-4 mb-5">
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="img-fluid img-card" src="../assets/img/d0415113-ade5-47aa-8669-5cff490e39f1.png" class="card-img-top" alt="Imagen del guitarrista Brad Delson">
+                                    <div class="card-body">
+                                    <h5 class="card-title"> Dave Farrell</h5>
+                                    <p class="card-text"> "Phoenix" es el bajista del grupo, casi siempre usa la técnica de la púa y en ocaciones hace los coros de las canciones.
+                                        También toca la guitarra eléctrica, el chelo y el violín.
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="img-fluid img-card" src="../assets/img/joehahncap.png" class="card-img-top" alt="Imagen de Chester">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Joe Hahn</h5>
+                                    <p class="card-text">
+                                        Es el DJ de la banda y también el encargado de dirigir los videos musicales.
+                                        Junto a Mike Shinoda, es responsable de la mayor parte de las ilustraciones de los álbumes de Linkin Park.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="img-fluid img-card" src="../assets/img/2023-07-28T04_48_36.png" class="card-img-top" alt="Imagen de Chester">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Rob Bourdon</h5>
+                                    <p class="card-text">Es el baterista y el último co-fundador de la banda. Rob mantiene a la banda en su lugar en los shows, asegurándose de que todos estén al 100% para brindar un gran espectáculo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="divMiembros">
-                    <div>
-                        <h2 class="miembro">DJ: Joe Hahn</h2>
-                    </div><!--Acá va el nombre del miembro a presentar-->
-                    <div class="ContImg">
-                        <img src="../assets/img/Joe Hahn proyecto img.jpg" alt="Imagen del DJ Joe Hahn" width="700" height="500">
-                    </div>
-                    <div class="parrafo">
-                        <p class="parrafosMiembros">
-                            Joseph Hahn conocido también como Joe Hahn o Mr. Hahn nació en Dallas, 
-                            Texas el 15 de marzo de 1977 pero creció en Glendale, California.
-                            Es el DJ de la banda y también el encargado de dirigir los videos musicales.
-                            Junto a Mike Shinoda, es responsable de la mayor parte de las      ilustraciones de los álbumes de Linkin Park.<!-- Breve comentario de su biografía y su infleuncia en la banda-->
-                        </p>
-                    </div>
-                </div> 
-                <div class="divMiembros2"> 
-                    <div>
-                        <h2 class="miembro2">Bateria: Rob Bourdon</h2>
-                    </div><!--Acá va el nombre del miembro a presentar-->
-                    <div class="ContImg2">
-                        <a title="Foto: Stefan Brending" href="https://commons.wikimedia.org/wiki/File:Linkin_Park-Rock_im_Park_2014-_by_2eight_3SC0692.jpg"><img width="256" alt="Linkin Park-Rock im Park 2014- by 2eight 3SC0692" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkin_Park-Rock_im_Park_2014-_by_2eight_3SC0692.jpg/256px-Linkin_Park-Rock_im_Park_2014-_by_2eight_3SC0692.jpg"></a>
-                    </div>
-                    <div class="parrafoRob">
-                        <div class="mencion">
-                            <p>
-                            Foto: <a href="https://de.wikipedia.org/wiki/User:2eight" class="extiw" title="de:User:2eight">Stefan Brending</a>
-                            </p>
-                        </div>  
-                        <p class="parrafosMiembros">
-                            Robert Bourdon nació en Calabasas, California el 20 de enero de 1979.
-                            Es el baterista y el último co-fundador de la banda.<!-- Breve comentario de su biografía y su infleuncia en la banda-->
-                            <!--Cambiar imagen porque tiene etiqueta de agua-->
-                        </p>
-                    </div>
-                </div>
-            </section>  
         </main>
         <footer class="container-fluid colorbgAntiqwhite">
             <div class="row">
