@@ -222,6 +222,7 @@ section .d-flex .flex-column.paddingsection .justify-content-center .aling-items
  .img-card{
     object-fit: cover;
  }
+
 @media screen and (max-width: 767px){
     .imgAlbumPar{
         order: 1;
@@ -265,6 +266,15 @@ section .d-flex .flex-column.paddingsection .justify-content-center .aling-items
     .input1{
         padding:0.2rem;
         justify-content:start ;
+    }
+    .card-sm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-sm-mb{
+        margin-bottom: 2rem;
     }
 }
 @media screen and (min-width: 767px) and (max-width: 860px){
