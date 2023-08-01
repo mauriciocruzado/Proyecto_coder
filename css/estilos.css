@@ -66,9 +66,6 @@ body {
     font-weight: 500;
 
   }
-/* .paddingsection{
-    padding-right: var(--bs-gutter-x,0);
-}*/
 section .d-flex .flex-column.paddingsection .justify-content-center .aling-items-center .overflow-hidden{
     padding-right: var(--bs-gutter-x,0);
 }
@@ -241,6 +238,10 @@ section .d-flex .flex-column.paddingsection .justify-content-center .aling-items
 
 
 @media screen and (max-width: 767px){
+    /*EDICION FOOTER*/
+    .footersm{
+        border-bottom: 1px solid white;
+    }
     /*EDICION DE PAGINA INICIO*/
     .imgAlbumImpar{
         padding-right: 3rem;
@@ -305,6 +306,9 @@ section .d-flex .flex-column.paddingsection .justify-content-center .aling-items
         align-items: center;
         padding-top: 2rem;
     }
+    .parrafoHistoria{
+        padding-top: 1rem;
+    }
     /*EDICION DE PAGINA "TIENDA"*/
     .divTienda{
         display: flex;
@@ -327,27 +331,4 @@ section .d-flex .flex-column.paddingsection .justify-content-center .aling-items
     .notif{
         padding-left: 2.5rem;
     }
-}
-
-/*EDICION PÁGONA "CONTACTO"*/
-
-/*.parrafoContacto{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-}
-.parrafoContacto h2{
-    padding-left:5%;
-    padding-bottom: 5px;
-    padding-top: 10px;
-}
-.parrafoContacto p{
-    padding-left: 40px;
-    padding-right: 20px;
-    text-align: justify;
-    margin-bottom: 20px;
-}
-.form{
-    display: block;
-    padding:5% 42% ;
 }
