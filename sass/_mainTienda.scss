@@ -1,0 +1,19 @@
+
+
+@media screen and (max-width: 767px){
+    .main{
+
+    .divTienda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .parrafoTienda{
+        display: flex;
+        text-align: center;
+        margin-bottom: 0;
+
+    }
+    }
+}

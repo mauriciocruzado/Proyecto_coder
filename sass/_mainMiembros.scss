@@ -1,0 +1,24 @@
+.main{
+     /*EDICION PAGINA MIEMBROS*/
+    h1{
+        background-color: antiquewhite;
+    }
+     .img-card{
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .main{
+/*EDICION DE PAGINA MIEMBROS*/
+    .card-sm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-sm-mb{
+        margin-bottom: 2rem;
+    }
+    }
+}

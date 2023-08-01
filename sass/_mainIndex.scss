@@ -1,0 +1,179 @@
+.main{
+    /*Div que contiene una clase "fotoIndex"*/
+    .fotoIndex{
+        background-color: $bg-blanco;
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        border-bottom: $borde-bajo-negro;
+        padding-bottom: 20px;
+
+    }
+
+
+    .Discografía{
+        background-color: $bg-negro;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: oblique;
+        font-size: 1.8rem;
+        color: $color-letra-blanca;
+        border-bottom: $borde-bajo-gris;
+        padding-bottom: 10px;
+
+    }
+    .imgAlbumImpar{
+        order: 1;
+        padding-left: 10%
+    }
+
+    .portada1{
+        border: 0.5px solid white;
+        border-radius: 20px;
+    }
+    .imgAlbumPar{
+        order:2;
+        padding-right: 15%;
+    }
+    .parrafoAlbumPar{
+        order: 1;
+        padding-left: 15%
+        ;
+    /**/
+    }
+    .parrafoAlbumImpar{
+        padding-right: 15%;
+        ;
+        order:2;
+    
+    }
+    .metmargin{
+        margin-top: 3rem;
+        margin-bottom:3rem;
+    }
+    .paddingmet{
+        padding-right: 2rem;
+    }
+
+
+    .ParHT{
+        background-color: $bg-blanco;
+        width: 100%;
+        color: $color-letra-negra;
+        border: $borde-negro;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        font-style: italic;
+    }
+
+    .parMet{
+        background-color: $bg-blanco;
+        width: 100%;
+        color: $color-letra-negra;
+        border: $borde-negro;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        font-style: italic;
+
+    }
+
+    .ParMID{
+        background-color:$bg-blanco;
+        width: 100%;
+        color: $color-letra-negra;
+        border: $borde-negro;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        font-style: italic;
+    }
+
+    .parATS{
+        background-color: $bg-blanco;
+        width: 100%;
+        color: $color-letra-negra;
+        border: $borde-negro;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        font-style: italic;
+    }
+
+    .ParLiv{
+        background-color:$bg-blanco;
+        width: 100%;
+        color: $color-letra-negra;
+        border: $borde-negro;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        font-style: italic;
+    }
+
+    .parTHP{
+        background-color: $bg-blanco;
+        width: 100%;
+        color: $color-letra-negra;
+        border: $borde-negro;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        font-style: italic;
+    }
+
+    .ParOML{
+        background-color: $bg-blanco;
+        width: 100%;
+        color: $color-letra-negra;
+        border: $borde-negro;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        font-style: italic;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .main{
+        /*EDICION DE PAGINA INICIO*/
+    .imgAlbumImpar{
+        padding-right: 3rem;
+    }
+    .imgAlbumPar{
+        order: 1;
+        padding-left: 2rem;
+    }
+    .parrafoAlbumPar{
+        order:2;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 0;
+        padding-bottom: 1.5rem;
+    }
+    .parrafoAlbumImpar{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 0;
+        padding-bottom: 1.5rem;
+    }
+    .ParHT{
+        width: 100%;
+    }
+    .parMet{
+        width: 100%;
+    }
+    .ParMID{
+        width: 100%;
+    }
+    .parATS{
+        width: 100%;
+    }
+    .ParLiv{
+        width: 100%;
+    }
+    .parTHP{
+        width: 100%;
+    }
+    .ParOML{
+        width: 100%;
+    }
+    }
+}

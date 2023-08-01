@@ -1,334 +1,313 @@
-
+@charset "UTF-8";
 /* Propiedades de reseteo. Primero coloqué el * que significa "selector universal"*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body {
-    font-family: 'Raleway', sans-serif
+  font-family: "Raleway", sans-serif;
 }
 
-.colorbgAntiqwhite{
-    background-color: antiquewhite;
-}
-.navbar-dark .navbar-nav .nav-link.colorbgAntiqwhite{
-    background-color: antiquewhite;
-}
-.navbar-dark .navbar-nav .nav-link.colorAntiqwhite{
-    color: antiquewhite;
+.colorAntiqwhite {
+  color: antiquewhite;
 }
 
-.colorwhite{
-    background-color: white;
-}
-.navbar-dark .navbar-nav .nav-link.colorletraBlanca{
-    color: white;
-}
-.navbar-dark .navbar-nav .nav-link.colorNegro{
-    color: black;
+.colorwhite {
+  background-color: white;
 }
 
-.colorNegro{
-    background-color: rgb(0, 0, 0);
+.colorNegro {
+  background-color: black;
 }
-.letterNegra{
-    color: black;
-    background-color: antiquewhite;
+
+.letterNegra {
+  color: black;
+  background-color: antiquewhite;
 }
-.letterBlanca{
-    color: rgb(255, 255, 255);
+
+.letterBlanca {
+  color: white;
 }
-.bg-GrisOscuro{
-    background-color: rgba(110, 110, 110, 0.485);
+
+.bg-GrisOscuro {
+  background-color: rgba(110, 110, 110, 0.485);
 }
-.bg-RojoOscuro{
-    background-color: rgba(87, 10, 10, 0.493);
+
+.bg-RojoOscuro {
+  background-color: rgba(87, 10, 10, 0.493);
 }
-.iconoRedes {
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    /*margin-right: 1rem;*/
-    font-size: 1rem;
-    text-decoration: none;
-    white-space: nowrap;
+
+.navbar-dark .navbar-nav .nav-link.colorbgAntiqwhite {
+  background-color: antiquewhite;
+}
+
+.navbar-dark .navbar-nav .nav-link.colorAntiqwhite {
+  color: antiquewhite;
+}
+
+.navbar-dark .navbar-nav .nav-link.colorletraBlanca {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link.colorNegro {
+  color: black;
+}
+
+.main {
+  /*Div que contiene una clase "fotoIndex"*/
+}
+.main .fotoIndex {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+.main .Discografía {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: oblique;
+  font-size: 1.8rem;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.612);
+  padding-bottom: 10px;
+}
+.main .imgAlbumImpar {
+  order: 1;
+  padding-left: 10%;
+}
+.main .portada1 {
+  border: 0.5px solid white;
+  border-radius: 20px;
+}
+.main .imgAlbumPar {
+  order: 2;
+  padding-right: 15%;
+}
+.main .parrafoAlbumPar {
+  order: 1;
+  padding-left: 15%;
+  /**/
+}
+.main .parrafoAlbumImpar {
+  padding-right: 15%;
+  order: 2;
+}
+.main .metmargin {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.main .paddingmet {
+  padding-right: 2rem;
+}
+.main .ParHT {
+  background-color: white;
+  width: 100%;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+.main .parMet {
+  background-color: white;
+  width: 100%;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+.main .ParMID {
+  background-color: white;
+  width: 100%;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+.main .parATS {
+  background-color: white;
+  width: 100%;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+.main .ParLiv {
+  background-color: white;
+  width: 100%;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+.main .parTHP {
+  background-color: white;
+  width: 100%;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+.main .ParOML {
+  background-color: white;
+  width: 100%;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    /*EDICION DE PAGINA INICIO*/
   }
-  .parrafoRedes{
-    font-size: 1.2rem;
-    font-weight: 600;
+  .main .imgAlbumImpar {
+    padding-right: 3rem;
   }
-  .parrafoMapa{
-    font-size: 1rem;
-    font-weight: 500;
-
+  .main .imgAlbumPar {
+    order: 1;
+    padding-left: 2rem;
   }
-section .d-flex .flex-column.paddingsection .justify-content-center .aling-items-center .overflow-hidden{
-    padding-right: var(--bs-gutter-x,0);
+  .main .parrafoAlbumPar {
+    order: 2;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+  }
+  .main .parrafoAlbumImpar {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+  }
+  .main .ParHT {
+    width: 100%;
+  }
+  .main .parMet {
+    width: 100%;
+  }
+  .main .ParMID {
+    width: 100%;
+  }
+  .main .parATS {
+    width: 100%;
+  }
+  .main .ParLiv {
+    width: 100%;
+  }
+  .main .parTHP {
+    width: 100%;
+  }
+  .main .ParOML {
+    width: 100%;
+  }
+}
+.main {
+  /*EDICION DE PAGINA CONTACTO*/
+}
+.main .notif {
+  padding-left: 2.5rem;
+}
+.main .input1 {
+  padding: 0.2rem;
 }
 
-
-/*Div que contiene una clase "fotoIndex"*/
-
-.fotoIndex{
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        justify-content: center;
-        object-fit: cover;
-        border-bottom: 1px solid black;
-        padding-bottom: 20px;
-
+@media screen and (max-width: 767px) {
+  .main .input1 {
+    padding: 0.2rem;
+    justify-content: start;
+  }
+  .main .parrafoContacto {
+    margin-bottom: 0;
+  }
+}
+.main {
+  /*EDICION PAGINA MIEMBROS*/
+}
+.main h1 {
+  background-color: antiquewhite;
+}
+.main .img-card {
+  object-fit: cover;
 }
 
-
-.Discografía{
-    background-color: rgb(0, 0, 0);
-    height: 10vh;
+@media screen and (max-width: 767px) {
+  .main {
+    /*EDICION DE PAGINA MIEMBROS*/
+  }
+  .main .card-sm {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main .card-sm-mb {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main .divTienda {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: oblique;
-    font-size: 1.8rem;
-    color: white;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.612);
-    padding-bottom: 10px;
-
+  }
+  .main .parrafoTienda {
+    display: flex;
+    text-align: center;
+    margin-bottom: 0;
+  }
 }
-.imgAlbumImpar{
-    order: 1;
-    padding-left: 10%
+@media screen and (max-width: 767px) {
+  .main .divHistoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+  }
+  .main .parrafoHistoria {
+    padding-top: 1rem;
+  }
 }
-
-.portada1{
-    border: 0.5px solid white;
-    border-radius: 20px;
+.footer .divFooter {
+  background-color: antiquewhite;
 }
-.imgAlbumPar{
-    order:2;
-    padding-right: 15%;
+.footer .divFooter .iconoRedes {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  /*margin-right: 1rem;*/
+  font-size: 1rem;
+  text-decoration: none;
+  white-space: nowrap;
 }
-.parrafoAlbumPar{
-    order: 1;
-    padding-left: 15%
-    ;
-   /**/
+.footer .divFooter .parrafoRedes {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
-.parrafoAlbumImpar{
-    padding-right: 15%;
-    ;
-    order:2;
-    
-}
-.metmargin{
-    margin-top: 3rem;
-    margin-bottom:3rem;
-}
-.paddingmet{
-    padding-right: 2rem;
+.footer .divFooter .parrafoMapa {
+  font-size: 1rem;
+  font-weight: 500;
 }
 
-
-.ParHT{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    color: black;
-    border: 1px solid black;
-    border-radius: 10px;
-    font-size: 1.1rem;
-    font-style: italic;
-}
-
-.parMet{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    color: black;
-    border: 1px solid black;
-    border-radius: 10px;
-    font-size: 1.1rem;
-    font-style: italic;
-
-}
-
-.ParMID{
-    background-color: white;
-    width: 100%;
-    color: black;
-    border: 1px solid black;
-    border-radius: 10px;
-    font-size: 1.1rem;
-    font-style: italic;
-}
-
-.parATS{
-    background-color: white;
-    width: 100%;
-    color: black;
-    border: 1px solid black;
-    border-radius: 10px;
-    font-size: 1.1rem;
-    font-style: italic;
-}
-
-.ParLiv{
-    background-color: white;
-    width: 100%;
-    color: black;
-    border: 1px solid black;
-    border-radius: 10px;
-    font-size: 1.1rem;
-    font-style: italic;
-}
-
-.parTHP{
-    background-color: white;
-    width: 100%;
-    color: black;
-    border: 1px solid black;
-    border-radius: 10px;
-    font-size: 1.1rem;
-    font-style: italic;
-}
-
-.ParOML{
-    background-color: white;
-    width: 100%;
-    color: black;
-    border: 1px solid black;
-    border-radius: 10px;
-    font-size: 1.1rem;
-    font-style: italic;
-}
-.notif{
-    padding-left: 2.5rem;
-}
-.col-1med{
-    width:12.5%
-}
-.input1{
-    padding: 0.2rem;
-}
-.tamanioImgFoot{
-    max-width: 50%;
-    height: auto;
-    
-}
-.navbar-brand.letterBlanca{
-    color: white;
-}
-.ms-6{
-    margin-left: 3.5rem;
-}
-
-
- /*EDICION PAGINA MIEMBROS*/
-
- .img-card{
-    object-fit: cover;
- }
- /*Edicion pagina HISTORIA*/
-
-
-
-
-
-
-
-@media screen and (max-width: 767px){
-    /*EDICION FOOTER*/
-    .footersm{
-        border-bottom: 1px solid white;
-    }
-    /*EDICION DE PAGINA INICIO*/
-    .imgAlbumImpar{
-        padding-right: 3rem;
-    }
-    .imgAlbumPar{
-        order: 1;
-        padding-left: 2rem;
-    }
-    .parrafoAlbumPar{
-        order:2;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        padding-top: 0;
-        padding-bottom: 1.5rem;
-    }
-    .parrafoAlbumImpar{
-        padding-left: 3rem;
-        padding-right: 3rem;
-        padding-top: 0;
-        padding-bottom: 1.5rem;
-    }
-    .ParHT{
-        width: 100%;
-    }
-    .parMet{
-        width: 100%;
-    }
-    .ParMID{
-        width: 100%;
-    }
-    .parATS{
-        width: 100%;
-    }
-    .ParLiv{
-        width: 100%;
-    }
-    .parTHP{
-        width: 100%;
-    }
-    .ParOML{
-        width: 100%;
-    }
-    .input1{
-        padding:0.2rem;
-        justify-content:start ;
-    }
-    /*EDICION DE PAGINA MIEMBROS*/
-    .card-sm{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .card-sm-mb{
-        margin-bottom: 2rem;
-    }
-    /*EDICION DE PAGINA "HISTORIA"*/
-    .divHistoria{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 2rem;
-    }
-    .parrafoHistoria{
-        padding-top: 1rem;
-    }
-    /*EDICION DE PAGINA "TIENDA"*/
-    .divTienda{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .parrafoTienda{
-        display: flex;
-        text-align: center;
-        margin-bottom: 0;
-
-    }
-    /*EDICION DE PAGINA "CONTACTO"*/
-    .parrafoContacto{
-        margin-bottom: 0;
-    }
-}
-@media screen and (min-width: 767px) and (max-width: 860px){
-    .notif{
-        padding-left: 2.5rem;
-    }
-}
+@media screen and (max-width: 767px) {
+  .footersm {
+    border-bottom: 1px solid white;
+  }
+}/*# sourceMappingURL=estilos.css.map */
