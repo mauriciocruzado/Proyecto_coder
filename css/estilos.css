@@ -302,6 +302,19 @@ section .d-flex .flex-column.paddingsection .justify-content-center .aling-items
         align-items: center;
         padding-top: 2rem;
     }
+    /*EDICION DE PAGINA "TIENDA"*/
+    .divTienda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .parrafoTienda{
+        display: flex;
+        text-align: center;
+        margin-bottom: 0;
+
+    }
 
 }
 @media screen and (min-width: 767px) and (max-width: 860px){
@@ -314,7 +327,7 @@ section .d-flex .flex-column.paddingsection .justify-content-center .aling-items
 
 /*EDICION PÁGINA "TIENDA"*/
 
-.subtTienda{
+/*.subtTienda{
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
