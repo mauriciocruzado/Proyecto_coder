@@ -127,10 +127,11 @@ section .d-flex .flex-column.paddingsection .justify-content-center .aling-items
     
 }
 .metmargin{
-    margin: 7% 0%;
+    margin-top: 3rem;
+    margin-bottom:3rem;
 }
 .paddingmet{
-    padding-right: 7%;
+    padding-right: 2rem;
 }
 
 
@@ -241,23 +242,25 @@ section .d-flex .flex-column.paddingsection .justify-content-center .aling-items
 
 @media screen and (max-width: 767px){
     /*EDICION DE PAGINA INICIO*/
+    .imgAlbumImpar{
+        padding-right: 3rem;
+    }
     .imgAlbumPar{
         order: 1;
+        padding-left: 2rem;
     }
     .parrafoAlbumPar{
         order:2;
-        /*padding-left:1.5rem ;*/
-        display: flex;
-        flex-direction: column;
-        align-items: center;        
-        padding-left: 1rem;
-        padding-right:3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 0;
+        padding-bottom: 1.5rem;
     }
     .parrafoAlbumImpar{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        padding-left: 3rem;
         padding-right: 3rem;
+        padding-top: 0;
+        padding-bottom: 1.5rem;
     }
     .ParHT{
         width: 100%;
@@ -315,7 +318,10 @@ section .d-flex .flex-column.paddingsection .justify-content-center .aling-items
         margin-bottom: 0;
 
     }
-
+    /*EDICION DE PAGINA "CONTACTO"*/
+    .parrafoContacto{
+        margin-bottom: 0;
+    }
 }
 @media screen and (min-width: 767px) and (max-width: 860px){
     .notif{
@@ -323,91 +329,9 @@ section .d-flex .flex-column.paddingsection .justify-content-center .aling-items
     }
 }
 
-
-
-/*EDICION PÁGINA "TIENDA"*/
-
-/*.subtTienda{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    margin-top: 40px;
-}
-.subtTienda .parrafoTienda1{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    padding-left: 10%;
-    text-decoration: underline rgb(112, 0, 0);
-
-}
-.subtTienda .parrafoTienda2{
-    padding-left: 9%;
-    font-size: 1rem;
-    margin-top: 30px;
-}
-.contenedorArt1{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-around;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.contenedorArt1 .remera1{
-    border: 1px solid rgb(193, 193, 193);
-    border-radius: 15px;
-}
-.producto12{
-    background-color: rgb(254, 255, 255);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.producto12 p{
-    background-color: rgb(255, 255, 255);
-    margin-top: 10px;
-    font-family: 'Gelasio', serif;
-    font-weight: 400;
-    margin-bottom: 5px;
-}
-.contenedorArt2{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-around;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-.contenedorArt2 .remera1{
-    border: 1px solid rgb(193, 193, 193);
-    border-radius: 15px;
-}
-.contenedorArt3{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-around;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-.contenedorArt3 .remera1{
-    border: 1px solid rgb(193, 193, 193);
-    border-radius: 15px;
-}
-
-.producto12 input{
-    padding: 10%;
-    border: 1px solid black;
-    border-radius: 20px;
-}
-.producto12 a :hover{
-    background-color: rgb(99, 33, 33);
-    color: white;
-}
-
 /*EDICION PÁGONA "CONTACTO"*/
 
-.parrafoContacto{
+/*.parrafoContacto{
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
