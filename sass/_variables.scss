@@ -12,3 +12,24 @@ $borde-negro:1px solid black;
 $borde-bajo-negro:1px solid black;
 $borde-bajo-gris:1px solid rgba(255, 255, 255, 0.612);
 $borde-bajo-blanco: 1px solid white;
+
+
+
+$coloresletras:(
+    'letranegra':black,
+    'letrablanca':white,
+);
+
+$fondo-colores: (
+    'color-antiquewhite':$color-antiquewhite
+    'bg-blanco':white,
+    'bg-negro':black,
+    'bg-GrisOscuro':rgba(110, 110, 110, 0.485),
+    'bg-RojoOscuro':rgba(87, 10, 10, 0.493),
+);
+
+$bordes-bajos:(
+    negro:$borde-bajo-negro,
+    blanco:$borde-bajo-blanco,
+    gris:$borde-bajo-gris,
+);

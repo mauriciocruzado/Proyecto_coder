@@ -1,18 +1,18 @@
 .main{
     /*Div que contiene una clase "fotoIndex"*/
     .fotoIndex{
-        background-color: $bg-blanco;
-        display: flex;
+        background-color: map-get($fondo-colores, bg-blanco);
+        display: flex; 
         justify-content: center;
         object-fit: cover;
-        border-bottom: $borde-bajo-negro;
+        border-bottom: map-get($bordes-bajos, negro );
         padding-bottom: 20px;
 
     }
 
 
     .Discografía{
-        background-color: $bg-negro;
+        background-color: map-get($fondo-colores, bg-blanco );
         height: 10vh;
         display: flex;
         justify-content: center;
@@ -20,8 +20,8 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-style: oblique;
         font-size: 1.8rem;
-        color: $color-letra-blanca;
-        border-bottom: $borde-bajo-gris;
+        color: map-get($coloresletras, blanco);
+        border-bottom: map-get($bordes-bajos , gris);
         padding-bottom: 10px;
 
     }
@@ -60,7 +60,7 @@
 
 
     .ParHT{
-        background-color: $bg-blanco;
+        background-color: map-get($fondo-colores , blanco )                   /*$bg-blanco*/;
         width: 100%;
         color: $color-letra-negra;
         border: $borde-negro;
