@@ -1,0 +1,16 @@
+
+@media screen and (max-width: 767px){
+    .main{
+
+    .divHistoria{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .parrafoHistoria{
+    padding-top: 1rem;
+    }
+    }
+}

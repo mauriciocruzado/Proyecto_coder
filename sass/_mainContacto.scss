@@ -1,0 +1,21 @@
+.main{
+    /*EDICION DE PAGINA CONTACTO*/
+    .notif{
+        padding-left: 2.5rem;
+    }
+    .input1{
+        padding: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .main{
+    .input1{
+        padding:0.2rem;
+        justify-content:start ;
+    }
+    .parrafoContacto{
+        margin-bottom: 0;
+    }
+    }
+}

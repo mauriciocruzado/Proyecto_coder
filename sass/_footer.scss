@@ -1,0 +1,27 @@
+.footer{
+  .divFooter{
+      background-color: $bg-antiquewhite;
+      .iconoRedes {
+          padding-top: 0.3125rem;
+          padding-bottom: 0.3125rem;
+          /*margin-right: 1rem;*/
+          font-size: 1rem;
+          text-decoration: $no-text-decoration;
+          white-space: nowrap;
+        }
+        .parrafoRedes{
+          font-size: 1.2rem;
+          font-weight: 600;
+        }
+        .parrafoMapa{
+          font-size: 1rem;
+          font-weight: 500;
+      
+        }
+  
+}}
+  @media screen and (max-width: 767px){
+    .footersm{
+      border-bottom: $borde-bajo-blanco;
+    }
+}
